@@ -16,3 +16,18 @@ print("Entered: " + text)
 # stdin without prompt
 text2 = input()
 print("Without prompt: " + text2)
+
+# escape and special chars
+text3 = "New line char \n and tab \t, after which goes escaped \'"
+print(text3)
+
+# text blocks
+text4 = """Python knows
+when you want
+to begin a new line...
+(and have a text block
+like in Java 13/14)"""
+
+print(text4)
+
+
