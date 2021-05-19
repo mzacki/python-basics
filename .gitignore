@@ -7,6 +7,8 @@ logs/
 *.iml
 .idea/
 .cuvet/
+.secret/
+top_secret/
 
 # Compiled class file
 *.class
