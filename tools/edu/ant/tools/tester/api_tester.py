@@ -7,7 +7,7 @@ from edu.ant.tools.tester.properties import get_properties
 # api call
 url = get_properties().get("api_1").get("host")
 key = get_properties().get("api_1").get("key")
-response = requests.get(url + key)
+response = requests.get(url)
 
 # print for dev only
 print(response)
