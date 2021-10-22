@@ -30,4 +30,10 @@ like in Java 13/14)"""
 
 print(text4)
 
+# no escape char needed
+print("single quotes 'within' a 'string'")
+print('double "quotes" within a "string" plus one more quote inside a pair of quotes """')
 
+# instead of default new line, specify how to end the line and it may continue
+print("something....", end=" ")
+print("will be print in the same line if 'end' param specified.")
