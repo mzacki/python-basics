@@ -30,7 +30,7 @@ like in Java 13/14)"""
 
 print(text4)
 
-# no escape char needed
+# no escape char needed but one may use it
 print("single quotes 'within' a 'string'")
 print('double "quotes" within a "string" plus one more quote inside a pair of quotes """')
 
