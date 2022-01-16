@@ -9,3 +9,7 @@ print("Current type: ", type(sth))  # string
 # e.g. no automatic type conversion
 # explicit conversion is always needed
 # print(sth + 23) ---> type error
+
+# None - constant shows that something does not have a value
+# roughly equivalent to null in C or Java
+found_at = None
