@@ -23,7 +23,7 @@ for letter in range(ord('a'), ord('h') + 1):
 # print new line
 print()
 # continue
-wish_list = ["ant", "cat", "books", "beer", "toys"]
+wish_list = ["ant", "cat", "books", "beer", "toys", "carrot"]
 for item in wish_list:
     if item == "toys":
         continue
