@@ -9,3 +9,12 @@ i = 0
 while i < 10:
     print("Current value of i is {}".format(i))
     i += 1
+
+
+directions = ["N", "S", "E", "W"]
+azimuth = ""
+
+while azimuth not in directions:
+    azimuth = input("Where do you head, sage...")
+
+print("You've chosen your destiny!")
