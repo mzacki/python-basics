@@ -16,5 +16,8 @@ azimuth = ""
 
 while azimuth not in directions:
     azimuth = input("Where do you head, sage...")
+    if azimuth == "quit":
+        print("Quitting...")
+        break
 
 print("You've chosen your destiny!")
