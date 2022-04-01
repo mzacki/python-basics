@@ -1,4 +1,4 @@
-from algo.search.binary.binary_search_step import binary_search_step
+from edu.ant.algo.search.binary.binary_search_step import binary_search_step
 
 
 def test_binary_serch_step():

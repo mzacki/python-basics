@@ -1,4 +1,4 @@
-from algo.sort.quick.quick_sort import quick_sort
+from edu.ant.algo.sort.quick.quick_sort import quick_sort
 
 
 def test_quick_sort():

@@ -1,4 +1,4 @@
-from algo.sort.selection.selection_sort import selection_sort
+from edu.ant.algo.sort.selection.selection_sort import selection_sort
 
 
 def test_selection_sort():
