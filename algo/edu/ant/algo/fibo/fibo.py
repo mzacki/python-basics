@@ -15,3 +15,5 @@ def create_fibo_series(last_n):
 def test_create_fibo_series():
 
     assert create_fibo_series(3) == [0, 1, 1]
+    assert create_fibo_series(1) == [0]
+    assert create_fibo_series(2) == [0, 1]
