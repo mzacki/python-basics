@@ -5,9 +5,5 @@
 # sleep_in(False, True) → True
 
 def sleep_in(weekday, vacation):
-    if not weekday:
-        return True
-    elif vacation:
-        return True
-    else:
-        return False
+    return not weekday or vacation
+
