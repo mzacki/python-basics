@@ -6,6 +6,7 @@ def array_count9(nums):
 
     return count
 
+
 # or
 
 def array_count9_2(nums):
