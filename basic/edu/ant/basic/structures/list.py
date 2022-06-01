@@ -9,6 +9,17 @@
 # frozenset
 # bytes
 
+var_true = True
+var_not_true = var_true
+# id() -> identity of an object
+# prints same id number for both
+print(id(var_true))
+print(id(var_not_true))
+var_true = False
+# now prints different id for var_true
+print(id(var_true))
+print(id(var_not_true))
+
 example_list = [
     "item1",
     "item2",
