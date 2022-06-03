@@ -9,6 +9,12 @@
 # frozenset
 # bytes
 
+# mutable objects in Python
+# list
+# dict
+# set
+# Bytearray
+
 var_true = True
 var_not_true = var_true
 # id() -> identity of an object
@@ -27,6 +33,11 @@ example_list = [
     "item4",
     "item5"
 ]
+
+print(id(example_list))
+example_list += ["item6"]
+# even after update, it prints the same id - because list is mutable
+print(id(example_list))
 
 # iterate through
 for item in example_list:
