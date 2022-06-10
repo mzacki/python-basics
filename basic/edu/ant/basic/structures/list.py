@@ -49,3 +49,12 @@ print(example_list[4])
 print(example_list[-1])
 # access by range (returns a new list)
 print(example_list[0:3])
+
+example_list.append("item5")
+print(example_list.count("item5"))
+
+# for item in example list
+# for loop is not very efficient iteration way
+# enumerate function is much better
+for index, item in enumerate(example_list):
+    print(f"Index: {index}, {item}")
