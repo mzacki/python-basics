@@ -32,3 +32,17 @@ print("There are {0} empty slots: {1}, {2}".format(2, "one", "two"))
 
 # f-string
 print(f"An f-string formatter of {number} number")
+
+# first occurence
+print("Abcdefgahcfg".find("fg"))
+# returns -1 if not found
+print("Abcdefgahcfg".index("fg"))
+# throws exception if not found
+
+# last occurence
+print("Abcdefgahcfg".rfind("fg"))
+
+# useful
+# .center() .ljust() .rjust()
+# strip() lstrip() rstrip()
+# removesuffix() removeprefix()
